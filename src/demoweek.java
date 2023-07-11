@@ -30,7 +30,7 @@ public class demoweek {
   else if (num == 7){
       System.out.println("saturday");
   }
-1
+
   else {
       System.out.println("not valid");
   }
