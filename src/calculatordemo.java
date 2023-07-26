@@ -9,21 +9,21 @@ public class calculatordemo {
 
                 if(input == 1) {
                         System.out.println("Enter the first number");
-                        int num1 = sc.nextInt();
+                        int a = sc.nextInt();
                         System.out.println("enter the second number");
-                        int num2 = sc.nextInt();
-                        int sum = num1 +num2;
-                        System.out.println("the sum of num1 and num2 is:"+sum);
+                        int b = sc.nextInt();
+                        int result = main.sum(a,  b);
+                        System.out.println("the sum of num1 and num2 is:"+result);
 
                 }
 
                 else if (input == 2) {
                         System.out.println("Enter the first number");
-                        int num1 = sc.nextInt();
+                        int a = sc.nextInt();
                         System.out.println("enter the second number");
-                        int num2 = sc.nextInt();
-                        int sub = num1 - num2;
-                        System.out.println("the subtraction of num1 and num2 is:"+sub);
+                        int b = sc.nextInt();
+                       int result = main.sub(a, b);
+                        System.out.println("the subtration of two num :" +result);
                 }
                 else if (input == 3) {
                         System.out.println("Enter the first number");
